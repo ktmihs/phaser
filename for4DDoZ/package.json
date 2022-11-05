@@ -2,13 +2,13 @@
   "name": "for4ddoz",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "start": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "phaser": "^3.55.2",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },
