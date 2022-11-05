@@ -1,6 +1,7 @@
 import Header from './Container/Header'
 import Main from './Container/Main'
 import ReadNumber from './Component/ReadNumber'
+import Map from './Component/Map'
 
 function App() {
   const globalStyle = {
@@ -18,14 +19,9 @@ function App() {
   }
 
   return (
-    <div style={globalStyle}>
-      <div style={componentStyle}>
-        <Header />
-        <Main>
-          <ReadNumber />
-        </Main>
-      </div>
-    </div>
+    <Main>
+      <Map />
+    </Main>
   )
 }
 
